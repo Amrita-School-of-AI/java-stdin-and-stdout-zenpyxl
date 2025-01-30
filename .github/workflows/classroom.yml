@@ -29,7 +29,6 @@ jobs:
 
     - name: Build with Gradle Wrapper
       run: ./gradlew build
-
     - name: Stdin Stdout Test
       id: stdin-stdout-test
       uses: classroom-resources/autograding-command-grader@v1
